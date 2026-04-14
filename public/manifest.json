@@ -1,0 +1,21 @@
+{
+  "name": "Expense Tracker",
+  "short_name": "ExpenseTracker",
+  "description": "A PWA for tracking your expenses.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F2E7FF",
+  "theme_color": "#9400D3",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

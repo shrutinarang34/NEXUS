@@ -1,0 +1,15 @@
+diff --git a/node_modules/react-wordcloud/package.json b/node_modules/react-wordcloud/package.json
+index 55d1314..4548def 100644
+--- a/node_modules/react-wordcloud/package.json
++++ b/node_modules/react-wordcloud/package.json
+@@ -51,6 +51,6 @@
+     "d3-cloud": "^1.2.5",
+     "d3-scale": "^3.2.1"
+   },
+-  "peerDependencies": {
+-    "react": "^16.13.0"
++  "peerDependencies": null,
++  "dependencies": {
++    "react": "*"
+   }
+ }

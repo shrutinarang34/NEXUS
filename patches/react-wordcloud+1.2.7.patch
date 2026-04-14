@@ -1,0 +1,27 @@
+diff --git a/node_modules/react-wordcloud/dist/index.js b/node_modules/react-wordcloud/dist/index.js
+index 419e763..7967a50 100644
+--- a/node_modules/react-wordcloud/dist/index.js
++++ b/node_modules/react-wordcloud/dist/index.js
+@@ -48,7 +48,7 @@
+   (0, _defineProperty2.default)(this, "render", function () {
+     var _this$props = _this.props,
+         callbacks = _this$props.callbacks,
+-        words = _this$props.words;
++        words = _this$props.words,
+         options = _this$props.options;
+     var layout = _this.state.layout;
+ 
+diff --git a/node_modules/react-wordcloud/package.json b/node_modules/react-wordcloud/package.json
+index 364746f..4c5980a 100644
+--- a/node_modules/react-wordcloud/package.json
++++ b/node_modules/react-wordcloud/package.json
+@@ -29,7 +29,8 @@
+   },
+   "peerDependencies": {
+     "d3-cloud": "^1.2.5",
+-    "react": "^16.13.0"
++    "react": "^16.13.0 || ^17.0.0 || ^18.0.0",
++    "react-dom": "^16.13.0 || ^17.0.0 || ^18.0.0"
+   },
+   "dependencies": {
+     "@babel/runtime": "^7.10.2",
